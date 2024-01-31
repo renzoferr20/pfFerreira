@@ -1,0 +1,173 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 16px;
+}
+
+.section-mision {
+  display: flex;
+  background-color: transparent;
+  backdrop-filter: blur(0.4rem);
+}
+.section-mision p {
+  display: flex;
+  color: red;
+  font-size: larger;
+}
+.section-mision h6 {
+  color: gold;
+  text-wrap: wrap;
+}
+
+section {
+  padding: 20px;
+  background: rgba(250, 250, 250, 0.062745098);
+  backdrop-filter: blur(0.1rem);
+}
+section h3 {
+  margin: 10px 0;
+  padding: 0 20px;
+  font-family: "Lemon", serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Playpen Sans";
+  color: rgb(21, 19, 19);
+  position: relative;
+  margin-top: 0px;
+  text-align: center;
+  margin-bottom: 0px;
+  font-size: 80px;
+  backdrop-filter: blur(0.4rem);
+  font-family: "Lemon", serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Playpen Sans";
+}
+
+.desc-oficina {
+  display: flex;
+  flex-wrap: wrap;
+  background: rgba(250, 250, 250, 0.062745098);
+  backdrop-filter: blur(0.4rem);
+}
+.desc-oficina img {
+  flex: 1;
+  padding: 25px;
+  margin-bottom: 0px;
+}
+.desc-oficina h6 {
+  flex: 2;
+  padding: 20px;
+  color: black;
+  font-family: "Single Day", cursive;
+  font-size: large;
+}
+
+@media (min-width: 320px) {
+  .img {
+    min-width: 320px;
+  }
+}
+.boton-nosotros {
+  display: flex;
+  justify-content: center;
+}
+.boton-nosotros button {
+  border-radius: 10px;
+  margin-bottom: 100px;
+  border: none;
+  background: transparent;
+}
+
+.col {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.desc-modelo {
+  color: rgba(178, 249, 206, 0.551);
+  font-family: "Russo One", sans-serif;
+}
+
+.card-text {
+  color: rgb(255, 255, 255);
+  font-family: "Russo One", sans-serif;
+}
+
+.card {
+  background-color: white;
+  backdrop-filter: blur(0.2rem);
+}
+
+.grilla-marcas {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.row {
+  margin: 10px;
+  padding: 10px;
+}
+
+.navbar-nav {
+  font-family: "Lemon", serif;
+}
+
+.row-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-de1 {
+  text-align: center;
+}
+
+.container.text-center {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+
+.card-text {
+  display: grid;
+  text-align: center;
+}
+
+.desc-modelo {
+  color: black;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #888888;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px;
+}
+
+.col {
+  flex: 1;
+  padding: 10px;
+}
+
+.img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  width: 90px;
+}
+
+/*# sourceMappingURL=style.css.map */

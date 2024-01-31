@@ -1,0 +1,35 @@
+.desc-oficina {
+    display: flex;
+    flex-wrap: wrap;
+    background: #fafafa10;
+    backdrop-filter:blur(0.4rem);
+    img{
+        flex: 1;
+    padding: 25px;
+    margin-bottom: 0px;
+    }
+    h6{
+    flex: 2;
+    padding: 20px;
+    color: black;
+    font-family:'Single Day', cursive ;
+    font-size: large;
+}
+} 
+@media(min-width:320px){
+    .img{
+        min-width: 320px;
+    }
+}
+
+.boton-nosotros{
+    display: flex;
+    justify-content: center; 
+button{
+    border-radius: 10px;
+    margin-bottom: 100px;
+    border: none;
+    background: transparent;
+    
+    }
+}

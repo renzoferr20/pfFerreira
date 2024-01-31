@@ -1,0 +1,14 @@
+.section-mision{
+    display: flex;
+    background-color: transparent;
+    backdrop-filter: blur(0.4rem);
+    p{
+        display: flex;
+        color: red;
+        font-size: larger;
+    } 
+    h6{
+            color: gold;
+            text-wrap: wrap;
+        }
+}
