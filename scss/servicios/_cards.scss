@@ -1,0 +1,23 @@
+.servicios{
+    display: flex;
+    justify-content: center;
+    h1{
+    
+        font-family: 'Cute Font', sans-serif;
+        
+    }
+}
+.section-col{
+    display:flex;
+}
+.parent {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 5px;
+grid-row-gap: 45px;
+}
+.info-servicio{
+    color: black;
+    font-size: large;
+}
