@@ -170,6 +170,18 @@ section h3 {
   width: 90px;
 }
 
+.card-text {
+  color: black;
+}
+
+.h5-modelos {
+  height: 30px;
+  color: black;
+  text-align: center;
+  text-wrap: wrap;
+  font-size: 30px;
+}
+
 .servicios {
   display: flex;
   justify-content: center;
@@ -193,6 +205,24 @@ section h3 {
 .info-servicio {
   color: black;
   font-size: large;
+}
+
+.h4-redes {
+  text-align: center;
+}
+
+.comentarios {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 6px;
+  place-items: center;
+}
+.comentarios p {
+  color: rgb(5, 4, 4);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
